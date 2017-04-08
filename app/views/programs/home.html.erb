@@ -3,11 +3,31 @@
     <div class="col-md-12">
 
       <div class="jumbotron">
-        <h1>
+        <h4>
           <%= @your_output %>
+        </h4>
+        <h3>
+          <%= @your_output2 %>
+        </h3>
+        <h2>
+          <%= @your_output3 %>
+        </h2>
+        <h1>
+          <%= @your_output4 %>
         </h1>
       </div>
 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <ul>
+        <li>Name: <%= @last_name + ", " +@first_name %> </li>
+        <li>Hometown: <%= @hometown %></li>
+        <li>D_O_B: <%= @d_o_b %></li>
+        <li>Marital status: <%= @marital_status %></li>
+        <li>Children: <%= @children %></li>
+      </ul>
     </div>
   </div>
 </div>
